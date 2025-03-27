@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-container {
+    width: 300px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column-reverse; /* Stack from bottom up */
+    align-items: center;
+}
+
+.piece {
+    width: 80%;
+    min-height: 30px;
+    margin: 5px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.broken {
+    background-color: red;
+    color: white;
+}
