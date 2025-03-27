@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stacking Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Stacking Game</h1>
+    <div id="game-container">
+        <div id="stack">
+            </div>
+    </div>
+    <div id="controls">
+        <h2>Add Piece:</h2>
+        <button onclick="addPiece({ durability: 60, weight: 50 })">Piece (D:60, W:50)</button>
+        <button onclick="addPiece({ durability: 100, weight: 30 })">Piece (D:100, W:30)</button>
+        <button onclick="addPiece({ durability: 40, weight: 70 })">Piece (D:40, W:70)</button>
+        <button onclick="addPiece({ durability: 80, weight: 0 })">Zero Weight Piece (D:80, W:0)</button>
+    </div>
+    <div id="status"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
